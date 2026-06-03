@@ -119,7 +119,7 @@ Jawablah pertanyaan user dengan ramah, jelas, menggunakan poin-poin (bullet poin
 
 # Inisialisasi Model Gemini
 model = genai.GenerativeModel(
-    model_name="models/gemini-1.5-flash",
+    model_name="gemini-1.5-flash",
     system_instruction=system_instruction
 )
 
